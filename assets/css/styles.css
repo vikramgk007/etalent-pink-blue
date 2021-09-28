@@ -29,7 +29,7 @@
 }
 
 #bg-image{
-	background-image: url('file:///C:/eTalent%20Pink%20&%20Blue/assets/images/header-bg.png');
+	background-image: url('../../assets/images/header-bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
