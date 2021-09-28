@@ -6,14 +6,14 @@ $("#navbar-btn-icon").click(function() {
 function showProgInfo(title, no) {
 	$(".prog"+no+"-info").css("display", "none");
     $("#"+title+"-info").css("display", "flex");
-	$(".prog"+no+"-map").css("display", "none");
-	$("#"+title+"-map").css("display", "block");
+	$(".prog"+no+"-img").css("display", "none");
+	$("#"+title+"-img").css("display", "block");
 }	
 
 $(document).ready(function(){
   $("#all-prog").addClass("btn-rounded-white-select");
   $("#ntc-info, #pss-info, #ng-info, #iep-info, #pssfa-info").css("display","none");
-  $("#ntc-map, #pss-map, #ng-map").css("display","none");
+  $("#ntc-img, #pss-img, #ng-img").css("display","none");
   
   // all, jsct, educators, employers, policymakers
   $("#all-prog").click(function(){
