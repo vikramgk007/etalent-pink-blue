@@ -30,6 +30,7 @@ $(document).ready(function(){
 	$("#employers-prog").removeClass("btn-rounded-white-select");
 	$("#educators-prog").removeClass("btn-rounded-white-select");
 	$("#policymakers-prog").removeClass("btn-rounded-white-select");
+	AOS.refresh();
   });
   
   $("#jsct-prog").click(function(){
@@ -46,6 +47,7 @@ $(document).ready(function(){
 	$("#employers-prog").removeClass("btn-rounded-white-select");
 	$("#educators-prog").removeClass("btn-rounded-white-select");
 	$("#policymakers-prog").removeClass("btn-rounded-white-select");
+	AOS.refresh();
   });
 
   $("#employers-prog").click(function(){
@@ -62,6 +64,7 @@ $(document).ready(function(){
 	$("#employers-prog").addClass("btn-rounded-white-select");
 	$("#educators-prog").removeClass("btn-rounded-white-select");
 	$("#policymakers-prog").removeClass("btn-rounded-white-select");
+	AOS.refresh();
   });
   
   $("#educators-prog").click(function(){
@@ -78,6 +81,7 @@ $(document).ready(function(){
 	$("#employers-prog").removeClass("btn-rounded-white-select");
 	$("#educators-prog").addClass("btn-rounded-white-select");
 	$("#policymakers-prog").removeClass("btn-rounded-white-select");
+	AOS.refresh();
   });
   
   $("#policymakers-prog").click(function(){
@@ -94,6 +98,7 @@ $(document).ready(function(){
 	$("#employers-prog").removeClass("btn-rounded-white-select");
 	$("#educators-prog").removeClass("btn-rounded-white-select");
 	$("#policymakers-prog").addClass("btn-rounded-white-select");
+	AOS.refresh();
   });
   
 });
