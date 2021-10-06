@@ -2,6 +2,8 @@ $("#navbar-btn-icon").click(function() {
   $("span.navbar-toggler-icon").toggleClass('clicked');
 });
 
+$('[data-aos]').parent().addClass('hideOverflowOnMobile');
+
 // On Prog Title Click - Hide all prog-info, show the specified #prog-info
 function showProgInfo(title, no) {
 	$(".prog"+no+"-info").css("display", "none");
