@@ -14,6 +14,7 @@ $(document).ready(function(){
   $("#all-prog").addClass("btn-rounded-white-select");
   $("#ntc-info, #pss-info, #ng-info, #iep-info, #pssfa-info").css("display","none");
   $("#ntc-img, #pss-img, #ng-img").css("display","none");
+  $('[data-aos]').parent().addClass('hideOverflowOnMobile');
   
   // all, jsct, educators, employers, policymakers
   $("#all-prog").click(function(){
