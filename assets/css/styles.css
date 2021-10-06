@@ -28,20 +28,20 @@
 	--white: #ffffff;
 }
 
-html{
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-}
-
 #bg-image{
 	background-image: url('../../assets/images/header-bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+html,body{
+	overflow-x: hidden;
+}
+
+$('[data-aos]').parent().addClass('hideOverflowOnMobile');
+
 .navbar-light .navbar-toggler{
-	border-color: transparent;
+	border-color: transparent !important;
 }
 
 .navbar-toggler:focus{
@@ -577,4 +577,15 @@ span.navbar-toggler-icon.clicked{
 .footer-icons-img{
 	width: 30px;
 	height: 30px;
+}
+
+/* 576px or smaller */
+@media only screen and (max-width: 300px) {
+	.section-padding {
+		padding: 80px 10px 80px 10px !important;
+	}
+	
+	.emp-prog-text{
+		padding-left: 0px;
+	}
 }
